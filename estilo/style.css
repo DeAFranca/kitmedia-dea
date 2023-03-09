@@ -1,0 +1,136 @@
+@charset "UFT-8";
+
+
+:root {
+--cor0: #facc60;
+--cor1: #faad29;
+--cor2: #F58B00;
+--cor3: #F57500;
+
+
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    min-height: 80px;
+    margin:0px;
+    margin-bottom: 0px; 
+   
+}
+nav{
+    background-color: #facc60;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.568);
+    text-align: center;
+    border-radius: 10%;
+    
+}
+nav > a{
+    border-radius: 15%;
+    text-decoration: none;
+    color: black;
+}
+nav > a:hover{
+    background-color: var(--cor3);
+    color:var(--cor0);
+}
+
+
+body{
+    background-image: linear-gradient(#F5AD00, #FFA001, #F58B00, #F57500 );
+    margin: auto;
+    text-align: center;
+    text-align: justify;
+    
+}
+
+article > div{
+    text-align: center;
+    
+} 
+header > h1 {
+    text-align: center;
+    text-align: auto;
+    margin: 0px;
+}
+
+header > p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+article > div > p{
+    text-align: justify;
+}
+article > div > h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    padding: 3px;
+    background-color: var(--cor0);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+main p{
+    margin: 3px;
+    text-indent: 30px;
+    line-height: 1.3em;
+}
+main img{
+    max-width: 300px;
+}
+main a{
+    text-decoration: none;
+    font-weight: boold;
+    color:#F57500;
+    background-color: #faad29;
+
+}
+main a:hover{
+    text-decoration: underline;
+}
+main h2{
+    color: #F57500;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    margin: 8px -1px 6px;
+}
+
+article > h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+div.video{
+    background-color: #F57500;
+    margin: 0px -2px 30px -2px;
+    padding: 10px;
+    padding-bottom: 45%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside{
+    background-color: #f7a438;
+    columns: 2;
+    list-style-position: inside;
+    margin: -1.5px;
+    padding: none;
+}
+footer{
+    background-color: rgb(110, 73, 3) ;
+    color: var(--cor0);
+    margin: 0%;
+}
