@@ -55,6 +55,9 @@ article > div{
     text-align: center;
     
 } 
+article#classe{
+    text-align: center;
+}
 header > h1 {
     text-align: center;
     text-align: auto;
