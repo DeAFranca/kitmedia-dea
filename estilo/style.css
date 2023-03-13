@@ -133,11 +133,14 @@ aside{
 }
 aside > li{
     padding-bottom: 10px;
+    text-decoration: none;
+    
 }
 aside > li:hover{
-    text-decoration: none;
+    
     background-color: var(--cor3);
     color:var(--cor0);
+    
 
 }
 footer{
