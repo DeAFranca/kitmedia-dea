@@ -130,7 +130,7 @@ aside{
     list-style-position: inside;
     margin: -1.5px;
     padding: none;
-    border-radius: 15px;
+    border-bottom: 30px;
 }
 aside > li{
     padding-bottom: 10px;
