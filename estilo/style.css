@@ -132,7 +132,7 @@ aside{
     padding: none;
 }
 aside > li{
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 aside > li:hover{
     text-decoration: none;
