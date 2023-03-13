@@ -131,6 +131,9 @@ aside{
     margin: -1.5px;
     padding: none;
 }
+aside > li{
+    padding-bottom: 5px;
+}
 footer{
     background-color: rgb(110, 73, 3) ;
     color: var(--cor0);
