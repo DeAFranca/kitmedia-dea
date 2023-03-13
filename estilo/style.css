@@ -134,7 +134,7 @@ aside{
 aside > li{
     padding-bottom: 5px;
 }
-li:hover{
+aside > li:hover{
     text-decoration: none;
     background-color: var(--cor3);
     color:var(--cor0);
