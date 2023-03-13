@@ -137,11 +137,8 @@ aside > li{
     
 }
 aside > li:hover{
-    
     background-color: var(--cor3);
     color:var(--cor0);
-    
-
 }
 footer{
     background-color: rgb(110, 73, 3) ;
