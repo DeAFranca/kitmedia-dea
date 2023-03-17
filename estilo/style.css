@@ -16,17 +16,14 @@
 }
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    background-image: url('imagens-videos/osr.png');
+    background-position: center center;
     min-height: 80px;
     margin:0px;
     margin-bottom: 0px; 
    
 }
-.tela{
-    background-image: url('imagens-videos/osr.png');
-    background-position: center center;
-    
-}
+
 nav{
     background-color: #facc60;
     margin-bottom: 10px;
