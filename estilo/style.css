@@ -22,8 +22,8 @@ header{
     margin-bottom: 0px; 
    
 }
-header#tela{
-    background-image: url(imagens-videos/osr.png);
+header.tela{
+    background-image: url('imagens-videos/osr.png');
     
 }
 nav{
