@@ -22,6 +22,10 @@ header{
     margin-bottom: 0px; 
    
 }
+header#tela{
+    background-image: url(imagens-videos/osr);
+    
+}
 nav{
     background-color: #facc60;
     margin-bottom: 10px;
